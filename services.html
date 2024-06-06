@@ -1,0 +1,247 @@
+<!DOCTYPE html> <!-- Defines the document type as HTML5 -->
+<html lang="en"> <!-- The root element of the HTML document with the language set to English -->
+
+<head>
+  <!-- Meta tags and document settings -->
+
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Edge compatibility -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive viewport settings -->
+
+  <!-- Primary meta tags -->
+  <title>Autofix - Auto Maintenance & Repair Service</title> <!-- Title of the page -->
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service"> <!-- Meta title -->
+  <meta name="description" content="This is a vehicle repair html template made by codewithsadee"> <!-- Meta description -->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> <!-- Shortcut icon -->
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnect to Google Fonts server -->
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet"> <!-- Link to Google Fonts -->
+
+  <!-- Material icon font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" /> <!-- Material icon font -->
+
+  <!-- Custom CSS link -->
+  <link rel="stylesheet" href="./assets/css/style.css"> <!-- Link to custom CSS -->
+
+  <!-- Preload images -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png"> <!-- Preload hero banner image -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg"> <!-- Preload hero background image -->
+
+  <!-- Background image style -->
+  <style>
+    body {
+      background-image: url('./assets/images/background3.jpg'); /* Background image */
+      background-size: cover; /* Cover the entire background */
+      background-position: center; /* Center the background image */
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header section -->
+  <header class="header">
+    <div class="container">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
+      </a>
+
+      <!-- Navigation menu -->
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li>
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Call to action button -->
+      <a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <!-- Navigation toggle button for mobile -->
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+    <article>
+
+      <!-- Service section -->
+      <section class="section service has-bg-image" aria-labelledby="service-label"
+        style="background-image: url('./assets/images/service-bg.jpg')">
+        <div class="container">
+
+          <!-- Section subtitle -->
+          <p class="section-subtitle :light" id="service-label">Our services</p>
+
+          <!-- Section title -->
+          <h2 class="h2 section-title">We Provide Great Services For your Vehicle</h2>
+
+          <!-- Service list -->
+          <ul class="service-list">
+
+           <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-1.png" width="110" height="110" loading="lazy" alt="Engine Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Engine Repair</h3>
+
+                <p class="card-text">
+                  Expert brake repair services ensure your safety and vehicle performance, addressing issues promptly and efficiently.
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-2.png" width="110" height="110" loading="lazy" alt="Brake Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Brake Repair</h3>
+
+                <p class="card-text">
+                  Our engine repair service delivers expert diagnosis and solutions to keep your vehicle running smoothly and efficiently.
+
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-3.png" width="110" height="110" loading="lazy" alt="Tire Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Tire Repair</h3>
+
+                <p class="card-text">
+                  Our tire repair service offers swift and professional solutions, ensuring your safety and extending the lifespan of your tires.
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-4.png" width="110" height="110" loading="lazy"
+                    alt="Battery Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Battery Repair</h3>
+
+                <p class="card-text">
+                  Our battery repair service rejuvenates your vehicle's power source, restoring reliability and extending its lifespan for enhanced performance.
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <img src="./assets/images/services-5.png" width="646" height="380" loading="lazy" alt="Red Car"
+                class="move-anim">
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-6.png" width="110" height="110" loading="lazy"
+                    alt="Steering Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Steering Repair</h3>
+
+                <p class="card-text">
+                  Our steering repair service restores precision and control to your vehicle's handling, ensuring safety and peace of mind on the road.
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn">
+            <span class="span">View All Services</span>
+
+            <span class="material-symbols-rounded">arrow_forward</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main
+                <!-- Read more button -->
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+          <!-- View all services button -->
+          <a href="#" class="btn">
+            <span class="span">View All Services</span>
+            <span class="material-symbols-rounded">arrow_forward</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Custom JavaScript link -->
+  <script src="./assets/js/script.js"></script> <!-- JavaScript file -->
+
+</body>
+
+</html>

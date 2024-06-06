@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags: These provide metadata about the HTML document. -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title and description for SEO -->
+  <title>carmedix - Auto Maintenance & Repair Service</title>
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service">
+  <meta name="description" content="This is a vehicle repir">
+
+  <!-- Favicon: Icon displayed in the browser tab or next to the URL in the address bar. -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts: Linking fonts from Google Fonts for styling text elements. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- Material Icon Font: Importing an icon font from Google Fonts. -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- Custom CSS: Linking an external CSS file for custom styling of the website. -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preload Images: Preloading images for faster rendering. -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <!-- Logo: Linking to the homepage -->
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home">
+      </a>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar" data-navbar> <!-- Navigation menu with data attribute -->
+      <ul class="navbar-list"> <!-- Unordered list for navigation links -->
+
+        <!-- Navigation Links -->
+        <li>
+          <a href="index.html" class="navbar-link">Home</a>
+        </li>
+
+        <li>
+          <a href="about.html" class="navbar-link">About</a>
+        </li>
+
+        <li>
+          <a href="services.html" class="navbar-link">Services</a>
+        </li>
+
+        <li>
+          <a href="projects.html" class="navbar-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="navbar-link">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+
+      <!-- Get a Quote Button: Button for users to request a quote -->
+      <a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <!-- Nav Toggle Button: Button to toggle the navigation menu for smaller screens -->
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+    </div> <!-- End of .container -->
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article>
+      <!-- About Section: Section providing information about the company -->
+      <section class="section about has-before" aria-labelledby="about-label">
+        <div class="container">
+          <!-- About Banner: Image related to the about section -->
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="540" height="540" loading="lazy"
+              alt="vehicle repair equipments" class="w-100">
+          </figure>
+
+          <!-- About Content: Text content related to the about section -->
+          <div class="about-content">
+            <!-- Section Title and Subtitle -->
+            <p class="section-subtitle :dark">About Us</p>
+            <h2 class="h2 section-title">We're Committed to Meeting the Quality</h2>
+
+            <!-- Paragraphs: Description of the company and its services -->
+            <p class="section-text">
+              "At our esteemed auto maintenance and repair service, we don't just aim for quality; we pledge an unwavering
+              commitment to excellence. With our distinguished team of seasoned experts and a relentless pursuit of perfection,
+              trust us to surpass your expectations and deliver unparalleled automotive care that sets the standard in the industry."
+            </p>
+            <!-- More paragraphs -->
+
+            <!-- About List: List of statistics or key points about the company -->
+            <ul class="about-list">
+              <!-- List items -->
+            </ul>
+          </div> <!-- End of .about-content -->
+        </div> <!-- End of .container -->
+      </section> <!-- End of .about -->
+    </article>
+  </main>
+
+  <!-- Custom JS: Linking an external JavaScript file for custom functionality -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

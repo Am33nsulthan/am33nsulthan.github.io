@@ -1,0 +1,145 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Defines the document language -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Defines the character encoding for the document -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Specifies the version of IE to use -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+
+  <!-- Primary meta tags -->
+  <title>carmedix - Auto Maintenance & Repair Service</title> <!-- Sets the title of the webpage -->
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service"> <!-- Sets meta title -->
+  <meta name="description" content="This is a vehicle repair html template made by codewithsadee"> <!-- Sets meta description -->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> <!-- Sets the favicon -->
+
+  <!-- Google Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconnects to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconnects to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet"> <!-- Links to Google Fonts -->
+
+  <!-- Material Icon Font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" /> <!-- Links to Material Icon Font -->
+
+  <!-- Custom CSS Links -->
+  <link rel="stylesheet" href="./assets/css/style.css"> <!-- Links to custom CSS stylesheet -->
+  <link rel="stylesheet" href="./assets/css/contact.css"> <!-- Links to custom CSS stylesheet -->
+
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png"> <!-- Preloads images -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg"> <!-- Preloads images -->
+
+</head>
+
+<!-- Inline Styling -->
+<style>
+  body {
+    background-image: url('./assets/images/background6.jpg'); /* Sets background image */
+    background-size: cover; /* Sets background image size */
+    background-position: center; /* Sets background image position */
+  }
+</style>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="128" height="63" alt="autofix home"> <!-- Logo image -->
+      </a>
+
+      <!-- Navigation Menu -->
+      <!-- Navigation Menu -->
+      <nav class="navbar" data-navbar> <!-- Navigation menu with data attribute -->
+        <ul class="navbar-list"> <!-- Unordered list for navigation links -->
+
+          <!-- Navigation Links -->
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- Call to Action Button -->
+      <a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a>
+
+      <!-- Navigation Toggle Button -->
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <article>
+
+      <!-- Article Header -->
+      <header>
+        <h1>Contact us </h1> <!-- Contact page header -->
+      </header>
+
+      <!-- Article Main Content -->
+      <main>
+        <section id="contact-us"> <!-- Contact section -->
+
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <p><i class="fa fa-map-marker"></i> Al Maktoum Street,
+              Al Rigga Area,
+              Deira,
+              Dubai,
+              United Arab Emirates</p> <!-- Contact address -->
+            <p><i class="fa fa-phone"></i> +971 4 234 5678|+971 55 987 6543</p> <!-- Contact phone numbers -->
+            <p><i class="fa fa-envelope"></i> carmedix@gmail.com</p> <!-- Contact email -->
+          </div>
+
+          <!-- Contact Form -->
+          <form>
+            <input type="text" placeholder="Name" /> <!-- Input field for name -->
+            <input type="email" placeholder="Email" /> <!-- Input field for email -->
+            <input type="url" placeholder="Website" /> <!-- Input field for website -->
+            <textarea placeholder="Comment"></textarea> <!-- Textarea for comments -->
+            <button type="submit">SUBMIT</button> <!-- Submit button -->
+          </form>
+
+        </section>
+      </main>
+    </article>
+  </main>
+
+  <!-- Custom JavaScript Link -->
+  <script src="./assets/js/script.js"></script> <!-- Links to custom JavaScript -->
+
+</body>
+
+</html>

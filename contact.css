@@ -1,0 +1,64 @@
+/* 
+  This CSS is for styling a contact form within a webpage.
+  It aims to create a visually appealing and user-friendly interface.
+*/
+
+/* Overall styling for the entire webpage */
+body {
+  display: flex;
+  flex-direction: column; /* Aligns content vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  min-height: 100vh; /* Ensures the page takes up at least the full viewport height */
+  margin: 0; /* Removes default margin */
+  background-color: #333; /* Sets background color to dark gray */
+  color: #fff; /* Sets text color to white */
+  font-family: Arial, sans-serif; /* Specifies the font family */
+}
+
+/* Styling for the header section */
+header {
+  text-align: center; /* Centers text within the header */
+  margin-bottom: 2rem; /* Adds space below the header */
+}
+
+/* Styling for the contact form container */
+#contact-us {
+  background-color: #444; /* Sets background color for the contact form */
+  padding: 2rem; /* Adds padding around the contact form content */
+  border-radius: 5px; /* Rounds the corners of the contact form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+  max-width: 500px; /* Sets the maximum width of the contact form */
+  width: 100%; /* Ensures the contact form spans the full width of its container */
+}
+
+/* Styling for contact information within the form */
+.contact-info p {
+  margin-bottom: 0.5rem; /* Adds space below each contact information */
+}
+
+.contact-info i {
+  margin-right: 0.5rem; /* Adds space to the right of icons */
+}
+
+/* Styling for the form elements */
+form {
+  display: flex; /* Arranges form elements in a row */
+  flex-direction: column; /* Stacks form elements vertically */
+}
+
+input, textarea {
+  margin-bottom: 1rem; /* Adds space below input fields */
+  padding: 0.5rem; /* Adds padding inside input fields */
+  border: none; /* Removes default border */
+  border-radius: 3px; /* Rounds the corners of input fields */
+}
+
+button {
+  background-color: orange; /* Sets background color for buttons */
+  color: #fff; /* Sets text color for buttons */
+  border: none; /* Removes default button border */
+  padding: 0.5rem; /* Adds padding inside buttons */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  border-radius: 3px; /* Rounds the corners of buttons */
+}
